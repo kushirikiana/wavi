@@ -1,5 +1,4 @@
 # errata:
-
 # - A travis bug causes caches to trample eachother when using the same
 #   compiler key (which we don't use anyway). This is worked around for now by
 #   replacing the "compilers" with a build name prefixed by the no-op ":"
@@ -24,19 +23,6 @@ cache:
 
 env:
   global:
-    - secure: "c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFDQVFERlp2VU5BbmUxUWVhaVAzenI5
-dloxTDVrWU1jZUJ2dFUvcVdJZWk3YjRlMWZGY2k0czVUZmJJTFV2RTVDM2NwR1pkRUFhejJ1SFBH
-cTlYelE3SmI4aVJJdEdlWFlrSTEzS1M0TnphVUZyT2VnbG1KTitiSUtjSE90WG4xTDZHdzRZVzJK
-azFOM2lHdFFmaEI3bkljUk91NTR2U1Zpcy9pZi9WbHdaMUhldXc0VWlRTDNyanRNRVFUdFdmV2Rq
-ODM2Y0grbktuUHo3dWFuNWpZQzl4VlZLWWUwVWZDVkZKcThQUDlzRWV0RHg0NG9GUThhLzhJYTJn
-STU3T1IwWk9yQ09PVUR3UTY0VHgzVjJyM3d1NEpIcnNCcnA4cldUajRNUmdhMFJtVzF0Wklva2lY
-Ky84amlkdnN3TUp6eDBqZS9KMnExWlZVYnEzaUEwaWFFQWJUVCt3R2w1OUw5dGkxdUFkZk9PaCtB
-SlVDd0kyVDlsYkkweUFobUpYd2F1blVQNWppVnFNcVNhWkFDN29LTGMyRFFPTi91cnpVcytoazdj
-U2VpeStTaVdNbzNnTmlZcmJDeDN5ekpMMERTT29adVVzNFd6TjJrOStLakZ1dGV5alA3b1JXMFI2
-S3Nyb0pKcmhRaGEvU3o4M0UrR0NZTnZtbTVmTWNXSFdrVi9obmtYRnZLKzN5WEdGNWQrTXpIK21X
-NHY5UXRBWnZCUS9adk1sMExYUENKajU1cFhOV0c5bS80M3p5Uko1VktGWkFoMXhQZmQ5SzBDSjcw
-dWQvWERISFYyMnlrUWtQRFROS3FWSnZkazJMbE5JUTA0RkoweGtKSEJ1ZkozTDdtWlNNZ3daSU5V
-QktWMlB5bzlZcHRHTXpFaHlza0FkUWNvNFJJRTVjM05MdWZNb3c9PSB1c2VyQHdhdmkuY29tCg=="
     - MAKEJOBS=-j5
     - RUN_TESTS=false
     - BOOST_TEST_RANDOM=1$TRAVIS_BUILD_ID
