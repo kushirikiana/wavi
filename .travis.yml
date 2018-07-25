@@ -14,12 +14,10 @@ os: linux
 language: generic
 
 cache:
-#  apt: true
-#  ccache: true
   directories:
-    - depends/built
-    - depends/sdk-sources
-    - $HOME/.ccache
+  - depends/built
+  - depends/sdk-sources
+  - $HOME/.ccache
 
 env:
   global:
