@@ -17,7 +17,7 @@ cache:
   directories:
   - depends/built
   - depends/sdk-sources
-  - $HOME/.ccache
+  - "$HOME/.ccache"
 
 env:
   global:
