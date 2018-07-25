@@ -52,7 +52,7 @@ env:
 
 before_install:
 #    - git clone https://github.com/kushirikiana/wavi_hash
-     - travis_retry sudo apt-get install python-dev native_ccache boost openssl libevent zeromq libsodium bdb miniupnpc
+     - travis_retry sudo apt-get install python-dev native_ccache boost openssl libevent
 #    - travis_retry sudo add-apt-repository ppa:ubuntu-wine/ppa -y
     - export PATH=$(echo $PATH | tr ':' "\n" | sed '/\/opt\/python/d' | tr "\n" ":" | sed "s|::|:|g")
     - export PATH=$(echo $PATH | tr ':' "\n" | sed '/\/opt\/pyenv/d' | tr "\n" ":" | sed "s|::|:|g")
