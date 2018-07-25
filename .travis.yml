@@ -14,8 +14,8 @@ os: linux
 language: generic
 
 cache:
-  apt: true
-  ccache: true
+#  apt: true
+#  ccache: true
   directories:
     - depends/built
     - depends/sdk-sources
